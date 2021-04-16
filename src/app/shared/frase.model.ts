@@ -1,8 +1,8 @@
 export class Frase{
  
 
-    constructor(public fraseEng: String, public fraseBtBr: String){
+    constructor(public fraseEng: String, public frasePtBr: String){
         this.fraseEng = fraseEng
-        this.fraseBtBr = fraseBtBr
+        this.frasePtBr = frasePtBr
     }
 }
