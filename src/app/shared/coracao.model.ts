@@ -1,17 +1,14 @@
-export class Coracao{
-    constructor(
-        public cheio: boolean,
-        public urlCoracaoCheio: String = '/assets/coracao_cheio.png',
-        public urlCoracaoVazio: String = '/assets/coracao_vazio.png'
-        
-    ){}
-
-    public existeCoracao(): string{
-      if(this.cheio){
-          return this.urlCoracaoCheio
-      }else{
-        return this.urlCoracaoVazio
-      }
-    }
-    
-}
+export class Coracao {
+  constructor(
+  public cheio: boolean,
+  public urlCoracaoCheio: string = './assets/coracao_cheio.png',
+  public urlCoracaoVazio: string = './assets/coracao_vazio.png'
+  ) {}
+  public exibeCoracao(): string {
+  if(this.cheio) {
+  return this.urlCoracaoCheio
+  } else {
+  return this.urlCoracaoVazio
+  }
+  }
+ }
